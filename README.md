@@ -2,7 +2,7 @@
 
 Everr CI helpers. Capabilities are toggled via inputs.
 
-> Built from `everr-labs/everr` at version `0.3.1`. Do not edit
+> Built from `everr-labs/everr` at version `0.3.2`. Do not edit
 > this repository directly; changes are overwritten on each release.
 
 ## Usage
