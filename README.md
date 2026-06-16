@@ -2,7 +2,7 @@
 
 Everr CI helpers. Capabilities are toggled via inputs.
 
-> Built from `everr-labs/everr` at version `0.3.0`. Do not edit
+> Built from `everr-labs/everr` at version `0.3.1`. Do not edit
 > this repository directly; changes are overwritten on each release.
 
 ## Usage
@@ -21,5 +21,6 @@ steps:
 
 | Name | Required | Default | Description |
 | --- | --- | --- | --- |
+| `install-cli` | no | `false` | Add the bundled Everr CLI to PATH for later workflow steps. Supports macOS arm64, Linux arm64, and Linux x64 runners when the matching binary is bundled. |
 | `resource-usage` | no | `true` | Collect per-job machine resource usage and upload a best-effort artifact. Set to "false" to opt out. |
 | `check-run-id` | no | `` | Check run id for the current workflow job. Pass the workflow expression `job.check_run_id` from the calling workflow. Required when resource-usage is enabled; the action no-ops with a warning if it is missing. |
